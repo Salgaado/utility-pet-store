@@ -12936,7 +12936,7 @@ input[data-js="attributes-toggle"]:checked + .toggle-menu span:nth-child(2) {
 
 .frame-1{
   display: flex;
-  justify-content: center;
+  justify-content: space-evenly;
   align-items: center;
   max-width: 100%;
   height: 7rem;
@@ -12953,7 +12953,6 @@ input[data-js="attributes-toggle"]:checked + .toggle-menu span:nth-child(2) {
   align-items: center;
   justify-content: space-between;
   width: 35%;
-  margin-right: 10rem;
   border: 2px solid #000;
   border-radius: 20px;
 }
@@ -13009,42 +13008,50 @@ font-size: 12px;
 }
 
 .frame-1-3 > a:hover{
-  color: #ececed !important;
+  color: #FEB155 !important;
 }
 
 
 .frame-1-3 > a:hover svg path {
-  fill: #ececed;
+  fill: #FEB155;
 }
 
 .frame-2{
   display: flex;
   justify-content: center;
   align-items: center;
-  background: #000;
-  height: 3rem;
-  gap: 2rem;
+  background: #fff;
+  height: 5rem;
+  gap: 4rem;
+  padding: 12px;
 }
 
 .frame-2 > a {
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  width: 100px;
   height: 100%;
-  width: 200px;
   color: #000 !important;
   text-decoration: none;
-  font-size: 15px;
-  font-weight: 300;
-  text-transform:uppercase;
+  font-size: 10px;
+  font-weight: 400;
+  border-radius: 10px;
+  gap: 5px;
 }
 
 .frame-2 > a:hover{
   color: #fff !important;
-  border-radius: 7px;
-  background: radial-gradient(231% 135.8% at 0.9% 2.98%, rgba(255, 255, 255, 0.40) 0%, rgba(255, 255, 255, 0.00) 100%);
-  backdrop-filter: blur(21px);
+  border-radius: 10px;
+  background: #FEB155;
 }
+
+.frame-2 > a:hover svg path{
+  fill: #fff;
+}
+
 
 @media  screen and (min-width: 700px){
   .frame-1-mobile{
