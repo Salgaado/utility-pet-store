@@ -6278,7 +6278,7 @@ textarea.form-control-lg {
   align-items: center;
   justify-content: space-between;
   padding: 1rem 1rem;
-  background: linear-gradient(270deg, #FFED00 0.69%, #F5F1B6 13.11%, #FEEC06 25%, #FDEB11 75.69%, #F5F1B6 87.59%, #FFED00 100%);
+  background: #FEB155;
 }
 
 .offcanvas-header .btn-close {
@@ -6292,7 +6292,7 @@ textarea.form-control-lg {
   margin-bottom: 0;
   line-height: 1.5;
   font-size: 20px;
-  color: #000;
+  color: #FFF;
   font-family: "Poppins" !important;
   text-transform: uppercase;
   font-weight: 700;
@@ -6302,7 +6302,7 @@ textarea.form-control-lg {
   flex-grow: 1;
   padding: 1rem 1rem;
   /* overflow-y: auto; */
-  background: rgba(54, 53, 53, 1);
+  background: #fff;
 }
 
 .offcanvas-start {
@@ -13067,14 +13067,14 @@ font-size: 12px;
   }
 
   .img-header{
-    width: 5rem;
+    width: 7rem;
   }
 
   .frame-1-mobile{
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    background-color: #000;
+    background-color: #FFFF;
     width: 100%;
     height: 5rem;
   }
@@ -13106,7 +13106,7 @@ font-size: 12px;
     display: flex;
     justify-content: center;
     align-items: center;
-    color:#000;
+    color:#FFF;
     background-color: inherit;
     border: none;
     font-size: 20px;
@@ -13130,17 +13130,16 @@ font-size: 12px;
   .mega-menu-item-mobile{
     display: flex;
     justify-content: flex-start;
-    height: 4rem;
+    height: 3rem;
     align-items: center;
     flex-shrink: 0;
     font-family: "Poppins" !important;
-    text-transform: uppercase;
     text-decoration: none;
-    font-size: 20px;
-    font-weight: 600;
-    color: #FFED00 !important;
+    font-size: 18px;
+    font-weight: 400;
+    color: #FEB155 !important;
     cursor: pointer;
-    border-bottom: 1px solid #FFED00;
+    border-bottom: 1px solid #FEB155;
   }
 
 
@@ -13167,7 +13166,7 @@ font-size: 12px;
     justify-content: center;
     align-items: center;
     width: 100%;
-    border-bottom: solid 1px #FFED00;
+    border-bottom: solid 1px #FEB155;
     margin-bottom: 1rem;
   }
 
@@ -13192,7 +13191,7 @@ font-size: 12px;
   
 
   .form-mobile > button > span > svg > path{
-    fill: #FFED00;
+    fill: #FEB155;
   }
 
   
