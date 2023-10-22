@@ -13206,39 +13206,19 @@ font-size: 12px;
 
 
 /*--------------------------- new layout footer -------------------- */
-.badge-frame{
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  margin-left: 8rem;
-  width: 300px;
-  height: 100px;
-  background: radial-gradient(39.16% 23.02% at 31.67% 15.06%, rgba(255, 255, 255, 0.40) 0%, rgba(255, 255, 255, 0) 100%);
-  border-top-left-radius: 41px;
-  border-top-right-radius: 41px;
-  border: 2px #80808030 solid;
-  backdrop-filter: blur(9px);
-  gap: 0.5rem;
-  position: relative;
-  z-index: 1000;
-  top: -154px;
+.about-us{
+  color: #FFF;
 }
 
-.badge span{
-  font-size: 18px;
-  color: #000;
-  font-weight: 300;
-}
-
-.badge span b{
-  font-weight: 500;
+.svg-patinhas-footer  svg{
+position: relative;
+bottom: 25px;
 }
 
 footer{
-  background-color: #000;
+  background: linear-gradient(270deg, #FEB155 8.06%, #FFAB48 34.1%, #FFAB48 77.71%, #FEB155 99.03%);
   padding: 50px 0 0 0;
-  
+  border-radius: 100px 100px 0px 0px;
 }
 
 .footer-imgtxt{
@@ -13270,20 +13250,22 @@ footer{
 }
 
 .img-footer{
-  width: 15rem; 
+  width: 13rem; 
 }
 
 .footer-bottom{
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
+  max-width: 100%;
   height: 5rem;
-  background: linear-gradient(270deg, #FFED00 0.69%, #F5F1B6 13.11%, #FEEC06 25%, #FDEB11 75.69%, #F5F1B6 87.59%, #FFED00 100%);
+  background: #fff;
 }
 
 .footer-bottom > span{
-font-weight: 800;
-color: #000;
+font-weight: 500;
+color: #FEB155;
+font-size: 16px;
 }
 
 .border-right{
@@ -13307,7 +13289,7 @@ color: #000;
 }
 .footer-col h4{
   font-size: 20px;
-  color: rgba(255, 237, 0, 1);
+  color: #787373;
   margin-bottom: 15px;
   font-weight: 700;
   position: relative;
