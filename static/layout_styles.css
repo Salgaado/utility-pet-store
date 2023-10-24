@@ -13210,6 +13210,11 @@ font-size: 12px;
   color: #FFF;
 }
 
+.svg-patinhas-footer{
+  position: relative;
+  top: -15px;
+}
+
 .svg-patinhas-footer  svg{
 position: relative;
 bottom: 25px;
@@ -13250,7 +13255,7 @@ footer{
 }
 
 .img-footer{
-  width: 13rem; 
+  width: 10rem; 
 }
 
 .footer-bottom{
