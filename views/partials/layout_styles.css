@@ -13392,6 +13392,17 @@ font-size: 16px;
   .badge-frame img{
     width: 6rem;
   }
+
+  .ecom{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .ecom a > img {
+    width: 6rem;
+  }
 }
 @media (max-width:900px) {
   .img-footer{
@@ -13443,4 +13454,7 @@ font-size: 16px;
   padding: 0 !important;
 }
 
+.payment-data .payment-data-container{
+  background-image: url("https://i.postimg.cc/YSvqzpzd/Frame-55.png"); 
+}
 
