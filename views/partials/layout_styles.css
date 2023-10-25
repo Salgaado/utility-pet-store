@@ -65,7 +65,7 @@
 *,
 *::before,
 *::after {
-  box-sizing: border-box;
+  box-sizing: border-box !important;
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -12929,10 +12929,7 @@ input[data-js="attributes-toggle"]:checked + .toggle-menu span:nth-child(2) {
   outline: none !important;
 }
 
-.line-gradient{
-  height: 1px;
-  background: linear-gradient(90deg, rgba(0,0,0,1) 0%, #FFED00 10%, rgba(255,255,255,1) 20%, #FFED00 25%, #FFED00 75%, rgba(255,255,255,1) 80%, #FFED00 90%, rgba(0,0,0,1) 100%);
-} 
+
 
 .frame-1{
   display: flex;
@@ -12957,7 +12954,7 @@ input[data-js="attributes-toggle"]:checked + .toggle-menu span:nth-child(2) {
   border-radius: 20px;
 }
 
-.frame-1-2 > button{ 
+.frame-1-2-1 > button{ 
   border: none;
   padding: 5px;
   background-color: inherit;
@@ -13024,6 +13021,7 @@ font-size: 12px;
   height: 5rem;
   gap: 4rem;
   padding: 12px;
+  box-sizing: content-box !important;
 }
 
 .frame-2 > a {
@@ -13278,9 +13276,9 @@ font-size: 16px;
 }
 
 .container-footer{
-  max-width: 1720px;
+  max-width: 100%;
   margin: auto;
-  padding-bottom: 4%;
+  padding-bottom: 2%;
 }
 
 .row-footer{
